@@ -11,10 +11,18 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    src/controls/actions/press.cpp \
+    src/model/board.cpp \
+    src/model/game.cpp \
+    src/model/player.cpp \
     src/test.cpp
 
 HEADERS += \
     mainwindow.h \
+    src/controls/actions/press.h \
+    src/model/board.h \
+    src/model/game.h \
+    src/model/player.h \
     src/test.h
 
 FORMS += \
